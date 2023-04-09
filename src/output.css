@@ -538,10 +538,6 @@ video {
   min-height: 100vh;
 }
 
-.w-52{
-  width: 13rem;
-}
-
 .items-center{
   align-items: center;
 }
@@ -580,20 +576,8 @@ video {
   font-family: Outfit;
 }
 
-.text-\[10px\]{
-  font-size: 10px;
-}
-
-.text-\[15px\]{
-  font-size: 15px;
-}
-
 .font-bold{
   font-weight: 700;
-}
-
-.leading-\[1\.2rem\]{
-  line-height: 1.2rem;
 }
 
 .text-dark-blue{
@@ -616,4 +600,44 @@ video {
     font-family: "Outfit";
     src: url('./src/assets/Outfit-VariableFont_wght.ttf');
   } */
+
+@media (min-width: 375px){
+  .sm\:w-52{
+    width: 13rem;
+  }
+
+  .sm\:text-\[10px\]{
+    font-size: 10px;
+  }
+
+  .sm\:text-\[15px\]{
+    font-size: 15px;
+  }
+
+  .sm\:leading-\[1\.2rem\]{
+    line-height: 1.2rem;
+  }
+}
+
+@media (min-width: 1440px){
+  .lg\:w-72{
+    width: 18rem;
+  }
+
+  .lg\:p-4{
+    padding: 1rem;
+  }
+
+  .lg\:text-\[14px\]{
+    font-size: 14px;
+  }
+
+  .lg\:text-\[22px\]{
+    font-size: 22px;
+  }
+
+  .lg\:leading-\[1\.8rem\]{
+    line-height: 1.8rem;
+  }
+}
   
