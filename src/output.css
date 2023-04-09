@@ -564,10 +564,6 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.p-3{
-  padding: 0.75rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -604,6 +600,10 @@ video {
 @media (min-width: 375px){
   .sm\:w-52{
     width: 13rem;
+  }
+
+  .sm\:p-3{
+    padding: 0.75rem;
   }
 
   .sm\:text-\[10px\]{
