@@ -518,6 +518,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
+.left-2\/4{
+  left: 50%;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -536,6 +548,11 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.-translate-x-2\/4{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .items-center{
